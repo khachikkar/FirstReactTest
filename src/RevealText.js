@@ -10,10 +10,14 @@ class RevealText extends Component {
   }
 
   componentDidMount() {
+
+    
     setInterval(() => {
       this.setState({ revealed: true });
     }, 2000); // Adjust the delay as needed
     this.setState({ revealed: false });
+
+
   }
 
   render() {
