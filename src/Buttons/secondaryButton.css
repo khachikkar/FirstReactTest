@@ -1,0 +1,16 @@
+#secondaryButton{
+    width: 150px;
+    height: 40px;
+    color: #000000;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.179);
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#secondaryButton:hover {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.629);
+}

@@ -1,0 +1,16 @@
+#primaryButton{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 149, 0);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#primaryButton:hover {
+    color: white;
+    background-color: rgb(168, 102, 10);
+}

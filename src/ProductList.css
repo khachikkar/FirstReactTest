@@ -1,0 +1,9 @@
+#myList{
+    /* border: 1px solid blue; */
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 60px;
+}
