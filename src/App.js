@@ -23,7 +23,7 @@ function App() {
       <Title titleData="Man" labelData = {{haslabel:true, value:"New Sales %"}}/>
       <ProductList toShow="men's clothing"  data = {Products}/>
       <div id="adimage">
-      <RevealText text="Aton Armenia is for You" />
+      <RevealText text="Aton Armeniia is for You" />
       </div>
     </div>
   );
