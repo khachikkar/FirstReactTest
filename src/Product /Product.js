@@ -8,7 +8,7 @@ function Product ( {data} ){
     const {description, category,  image, price, title} = data
 
     return(
-        <div class="card" category={category}>
+        <div className="card" category={category}>
     <img src={image} alt="hello"></img>
     <div className="card-content">
         <div className="card-title">{title.slice(0, 16) + "..."}</div>

@@ -11,10 +11,9 @@ import ProductList from './ProductList';
 import Products from "./products.json"
 import adimage from "./img/ad.jpg"
 import RevealText from './RevealText';
+import "./globals.css"
 
 function App() {
-
-
 
   return (
     <div className="App">
@@ -25,6 +24,7 @@ function App() {
       <div id="adimage">
       <RevealText text="Aton Armeniia is for You" />
       </div>
+
     </div>
   );
 }

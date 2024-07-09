@@ -25,7 +25,7 @@ class RevealText extends Component {
     const { revealed } = this.state;
 
     return (
-      <div className="reveal-container">
+      <div className="reveal-container" >
         {text.split('').map((char, index) => (
           <span
             key={index}

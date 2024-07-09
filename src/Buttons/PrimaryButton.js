@@ -2,7 +2,7 @@ import "./PrimaryButton.css"
 import {MdPerson} from 'react-icons/md';
 
 
-function PrimaryButton({haslogo, dat}){
+function PrimaryButton({dat}){
     return(
 
         <button id="primaryButton">
